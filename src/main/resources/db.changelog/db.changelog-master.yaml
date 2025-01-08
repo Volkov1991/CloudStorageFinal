@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: migrations/001.0-create-tables.sql
+      relativeToChangelogFile: true
+  - include:
+      file: migrations/001.1-fill-table-users.sql
+      relativeToChangelogFile: true
